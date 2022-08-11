@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -22,6 +23,7 @@ int main()
 
     default:
         printf("you selcted nothing");
+        exit(0); //exit return to os
         break;
     }
 
