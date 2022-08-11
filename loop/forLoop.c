@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
 int i;
 //for loop can be used to iterate literal in the program
 
@@ -18,5 +18,6 @@ continue; //  continue the loop without else statement
 }
 printf("%d is an even value\n", i);
 }
+return 0;
 
 }

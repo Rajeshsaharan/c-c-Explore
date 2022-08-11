@@ -3,7 +3,7 @@
 main(){
 
 printf("please check th operator.png file to learn operator");
-printf("first check level & after that check Associativity column (left to right or right to left")
+printf("first check level & after that check Associativity column (left to right or right to left");
 //example
 
 // level        operator                            Associativity
