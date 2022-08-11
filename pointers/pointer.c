@@ -20,12 +20,12 @@ c = &b;
 int *d , e;
 e = 29;
 // we cant do that way
-*d = &e; // because one is value and another one is address
+// *d = &e; // because one is value and another one is address
 // see more at https://www.programiz.com/c-programming/c-pointers
 
 //but we can do that like way
 int s = 20;
-int *r = &a // right way because it means
+int *r = &a ;// right way because it means
 // r = &a 
 
 
