@@ -31,6 +31,10 @@ printf("%s\n", course);
 char last_name[] = "poonia";
 printf("%s\n", last_name); //output ----> poonia
 // wrong way last_name = "saharan"
+// but we can do that for rest of data types like int, float, char
+int age = 10;
+age = 12; // successfully changed or reassigned
+
 // to change last_name we can use strcpy function
 //strcpy(char array name, "value you want to change");
 strcpy(last_name, "saharan"); //to use strcpy we need to include header file string.h
