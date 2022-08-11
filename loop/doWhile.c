@@ -14,6 +14,6 @@ scanf(" %c", &choice) ;// here we are taking condition for further do while loop
 if (choice == "Y" || choice == "y"){
 choice = "y";
               }
-}while(choice == 'y');
+}while(choice == 'y');// here ; is important
 
 }
